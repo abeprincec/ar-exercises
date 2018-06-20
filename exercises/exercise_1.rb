@@ -1,4 +1,4 @@
-require_relative '../setup'
+require_relative "../setup"
 
 puts "Exercise 1"
 puts "----------"
@@ -10,7 +10,6 @@ puts "----------"
 burnaby = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: "T", womens_apparel: "T")
 richmond = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: "F", womens_apparel: "T")
 gastown = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: "T", womens_apparel: "F")
-
 
 # Your code goes below here ...
 
